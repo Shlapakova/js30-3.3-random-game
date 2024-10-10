@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(0, 0, 0);
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.01em;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #adf5ff;
+}
+
+canvas {
+  background: #adf5ff;
+}
+button {
+  display: block;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background: -webkit-linear-gradient(45deg, rgb(40, 40, 40), rgb(133, 133, 133));
+  box-shadow: inset 1px 1px 6px 2px rgb(53, 53, 53);
+  padding: 20px;
+  z-index: 0;
+}
+
+footer img {
+  width: 15vh;
+}
+
+footer p {
+  font-weight: 700;
+}
+
+.footer-logo {
+  width: 150px;
+}
